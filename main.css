@@ -1,0 +1,55 @@
+
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  font-family: 'Gugi', cursive;
+  font-size: 2em;
+  margin: 0 auto;
+}
+.nav {
+  background: white;
+  color: black;
+  width: 100%;
+  
+  z-index: 1;
+  margin: 0 auto;
+  font-family: 'Gugi', cursive;
+  font-size: 3.2em;
+  text-align: center;
+  padding: 5px;
+  /* font-family: 'Bowlby One', cursive;
+  font-family: 'Bungee Shade', cursive; */
+}
+.nav:hover {
+  background: white;
+  color: black;
+  transition: 1s;
+}
+.portfoliobckgrd {
+  width: 100%;
+  background: rgb(0, 0, 0);
+  /* background: linear-gradient( rgba(255, 0, 212, 0.2), rgba(0, 0, 0, 0.1)), url(portfolio-background-copy.png);
+  z-index: 1; */
+}
+main {
+  background-color: white;
+  border-width: 2px;
+  width: 80% !important;
+  box-shadow: rgb(51, 50, 36) 3px 3px 3px;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 15px;
+}
+.mainimg {
+  width: 100%;
+}
+.thumbimg {
+  width: 90%;
+}
+.iframe {
+  margin: 0 auto;
+}
