@@ -3,65 +3,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Bungee+Shade|Gugi" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/css/uikit.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Bungee+Shade|Gugi|Roboto+Condensed|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
 
   <title>Cat Perry Portfolio</title>
   
   <header>
-    <nav class="nav">
-      <h1>CAT PERRY
-      <br>PORTFOLIO</h1>
-    </nav>
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+      <nav class="uk-navbar-container nav uk-margin" uk-navbar>
+        <a href="index.html">
+        <h1>CAT PERRY PORTFOLIO</h1>
+        <h5>Junior Full-stack Web Developer</h5></a>
+        <div class="uk-navbar-right">
+          <a class="uk-navbar-toggle" href="#">
+            <ul class="uk-navbar-nav">
+              <li>
+                <a href="#"><span uk-navbar-toggle-icon></span>Menu</a>
+                <div class="uk-navbar-dropdown">
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li class="uk-active">
+                      <a href="about.html">About Me</a>
+                    </li>
+                    <li>
+                      <a href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <!-- 
+                    <li class="uk-nav-header">Header</li>
+                    <li>
+                      <a href="#">Item</a>
+                    </li>
+                    <li>
+                      <a href="#">Item</a>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li>
+                      <a href="#">Item</a>
+                    </li> -->
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -400" style="background-image: url('apple-business-computer-39284.jpg');">
+      
+      <h6 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Hey, I'm Cat, a full-stack web engineer specializing in all things JavaScript—including vanilla and MERN stack—plus Ruby on Rails. </h6>
+      
+      </div>
+
+    </div>
   </header>
 
 </head>
 <body class="portfoliobckgrd">
+
+  <!-- <main uk-parallax="bgy: -200"> -->
+    
   
+  
+  <a href="fitmatrix.html">
+    <main >
+      <section class="row1">
+        <h2>Fit Matrix App</h2>
+        <h3>A customizable fitness app based on algorithm-sorted exercises.</h3>
+        <img src="fitmatrix2.png" class="img-fluid" alt="Responsive image">
+      </section>
+    </main>
+  </a>
+
 
   <main>
-    <h1>Epic Travelers</h1>
-    <h2>This Adventure blog design is inspired by a mashup of Huffington Post and Outside magazine, which have blurred the lines
-      between blogs and news media. It's a blog built for those who enjoy outdoor actionsports and adventure travel. </h2>
-    <img src="rumbler2.png" class="img-fluid" alt="Responsive image">
-      
-      <p>This webapp  models TUMBLR, the blogging site. It's designed for outdoorsy, adventure-sports lovers and travelers, designed to create an atmosphere for the user and get them excited about what they're writing, sharing, and reading from other users of the blogging network.</p> <p>Technologies used include <strong>HTML/CSS, JavaScript, Ruby,Sinatra, Sessions, Cookies, ActiveRecord, SQLite3, SendGrid, API, Postgres, Heroku, Git, Gem Wrappers.</strong> TO SIGN IN and look beyond the homepage, username: Laurenisnerdy; password: 12345. See the <a href="https://github.com/CatPerry/NYCDA-Ruby-Tumblr-project">GitHub repository.</a></p>
-      <div class="iframe">
+    <section class="row2">
+      <h2>Blog with full CRUD functionality for users and blog posts</h2>
+      <h3>Epic Travelers
+        <br>This Adventure blog design is inspired by a mashup of Huffington Post and Outside magazine, which have blurred the lines
+        between blogs and news media. It's a blog built for those who enjoy outdoor actionsports and adventure travel. </h3>
+      <img src="rumbler2.png" class="img-fluid" alt="Responsive image">
+    
+      <p>
+        <h4>This webapp models TUMBLR, the blogging site. It's designed for outdoorsy, adventure-sports lovers and travelers, designed
+          to create an atmosphere for the user and get them excited about what they're writing, sharing, and reading from other
+          users of the blogging network.</p>
+      <p>Technologies used include
+        <strong>HTML/CSS, JavaScript, Ruby,Sinatra, Sessions, Cookies, ActiveRecord, SQLite3, SendGrid, API, Postgres, Heroku, Git, Gem
+          Wrappers.
+        </strong> TO SIGN IN and look beyond the homepage, username: Laurenisnerdy; password: 12345. See the
+        <a href="https://github.com/CatPerry/NYCDA-Ruby-Tumblr-project">GitHub repository. </h4>
+        </a>
+      </p>
+      <div align="center" class="iframe">
         <iframe width="630" height="394" src="https://www.useloom.com/embed/5f8062eac9f9429fb8e504a82aa7b059" frameborder="0" webkitallowfullscreen
           mozallowfullscreen allowfullscreen></iframe>
       </div>
-
+    </section>
   </main>
 
-  <main>
-    <h1>Fit Matrix App</h1>
-    <h2>Project Aim: To build a customizable fitness app based on classic, time-tested exercise progression techniques of working
-      muscles largest to smallest order, for maximum workout efficiency. I do this using sorting and other algorithms, and add
-      standout features like YouTube API calls to populated a sidebar with video demos of exercise moves.</h2>
-    <img src="fitmatrix2.png" class="img-fluid" alt="Responsive image">
-    
-    <p> Added UX via the built-in workout timer. The Problem this solves: Many general fitness apps, that is those not owned by major corporations and (thus unconnected to hardware), are either randomized workouts based only a body part worked or your time available. But these apps often show premanufactured workouts in a random order that’s not necessarily optimized for results, working your largest
-    muscles to smaller muscles. I want to create a randomized, yet customizable, workout app based on the best training principles.</p>
-    <p>Key features: Customizable, but randomized exercises from my own JSON file, image demo, workout timers, Hopefully Youtube
-    API scraper, Google or Facebook oAuth. Technologies I'm using: <strong>YouTube API, JavaScript, Ruby on Rails, created my own fitness
-    JSON database. </strong>See the <a href="https://github.com/CatPerry/fit-matrix-rails-app">GitHub repository.</a>
-    </p>
-    <div class="iframe">
-      <iframe width="630" height="394" src="https://www.useloom.com/embed/a137d3a2e06e49afaef99be52d565baf" frameborder="0" webkitallowfullscreen
-        mozallowfullscreen allowfullscreen></iframe>
-    </div>
-  
-  </main>
-  
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit-icons.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

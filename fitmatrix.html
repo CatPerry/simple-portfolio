@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/css/uikit.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Bungee+Shade|Gugi|Roboto+Condensed|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+  <title>Cat Perry Portfolio</title>
+
+  <header>
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+      <nav class="uk-navbar-container nav uk-margin" uk-navbar>
+        <a href="index.html">
+          <h1>CAT PERRY PORTFOLIO</h1>
+          <h5>Junior Full-stack Web Developer</h5>
+        </a>
+        <div class="uk-navbar-right">
+          <a class="uk-navbar-toggle" href="#">
+            <ul class="uk-navbar-nav">
+              <li>
+                <a href="#">
+                  <span uk-navbar-toggle-icon></span>Menu</a>
+                <div class="uk-navbar-dropdown">
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li class="uk-active">
+                      <a href="about.html">About Me</a>
+                    </li>
+                    <li>
+                      <a href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <!-- 
+                    <li class="uk-nav-header">Header</li>
+                    <li>
+                      <a href="#">Item</a>
+                    </li>
+                    <li>
+                      <a href="#">Item</a>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li>
+                      <a href="#">Item</a>
+                    </li> -->
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -400" style="background-image: url('apple-business-computer-39284.jpg');">
+
+        <h6 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Hey, I'm Cat, a full-stack web engineer specializing in all things JavaScript—including vanilla and MERN stack—plus
+          Ruby on Rails. </h6>
+
+      </div>
+
+    </div>
+  </header>
+
+</head>
+
+<body class="portfoliobckgrd">
+
+  <!-- <main uk-parallax="bgy: -200"> -->
+
+
+
+  <main>
+    <section class="row1">
+      <h2>Fit Matrix App</h2>
+      <h3>Project Aim: To build a customizable fitness app based on classic, time-tested exercise progression techniques of working
+        your largest muscles first, then move on to the smallest muscles, for maximum workout efficiency. I do this using
+        JSON sorting and other search algorithms.</h3>
+      <img src="fitmatrix2.png" class="img-fluid" alt="Responsive image">
+
+      <p>
+        <h4> Features: I am focusing on the UX/UI of this product to make it as easy and as all-in-one to use. I've added a built-in
+          workout timer usign JavaScript and I call on the YouTube API in order to populate movement demos, based on user
+          search, right within the app if users need them. The problems these features solve: Many general fitness apps show
+          premanufactured workouts in a random order that’s not necessarily optimized for results, working your largest muscles
+          to smaller muscles. I want to create a randomized, yet customizable, workout app based on the best training principles.</p>
+      <p>Key features: Customizable, but randomized exercises from my own (soon to be open-sourced) JSON file, credited image
+        demos, complex workout timers, and at trio of (non-explicit) Youtube API videos for workout move demos right in-app.
+        Technologies I'm using:
+        <strong>YouTube API, JavaScript, Ruby on Rails, created my own fitness JSON database. </strong>See the private
+        <a href="https://github.com/CatPerry/fit-matrix-rails-app">GitHub repository.</h4>
+        </a>
+      </p>
+      <div align="center" class="iframe">
+        <iframe width="630" height="394" src="https://www.useloom.com/embed/a137d3a2e06e49afaef99be52d565baf" frameborder="0" webkitallowfullscreen
+          mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit-icons.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
