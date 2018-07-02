@@ -104,7 +104,22 @@ main {
   z-index: 5;
   animation: slidein1 3s forwards;
 }
-main:after {
+.sitecards {
+  background-color: rgb(244,244,244);
+  image-rendering: pixelated;
+  color: black;
+  border-width: 2px;
+  width: 80% !important;
+  box-shadow: rgb(51, 50, 36) 8px 8px 8px 3px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+  z-index: 5;
+  animation: slidein1 3s forwards;
+}
+.sitecards:after {
     content: '';
     position: absolute;
     left: 0;
@@ -114,11 +129,11 @@ main:after {
     background-color: rgba(207, 194, 213, 0.0);
     transition: background-color .5s;
 }
-main:hover:after {
+.sitecards:hover:after {
     text-align: center !important;
     font-family: 'Gugi', cursive;
     font-size: 5.4rem;
-    content: 'Interactive Fitness App *Built on Rails*';
+    content: '*Click to see video demo & technologies*';
     align-content: stretch;
     color: white;
     background-color: rgba(207, 194, 213, 0.75);

@@ -8,7 +8,7 @@
     if (window.pageYOffset > 0) {
       firstSection.classList.add("fadeIn");
     }
-    if (window.pageYOffset > 1800) {
+    if (window.pageYOffset > 650) {
       secondSection.classList.add("fadeIn");
     }
     if (window.pageYOffset > 2800) {
