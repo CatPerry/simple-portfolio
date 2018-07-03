@@ -11,7 +11,7 @@
     if (window.pageYOffset > 650) {
       secondSection.classList.add("fadeIn");
     }
-    if (window.pageYOffset > 2800) {
+    if (window.pageYOffset > 1000) {
       thirdSection.classList.add("fadeIn");
     }
     if (window.pageYOffset > 3800) {
